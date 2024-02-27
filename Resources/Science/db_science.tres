@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="flashcardDatabase" load_steps=3 format=3 uid="uid://brijf6fglrfsp"]
+
+[ext_resource type="Script" path="res://Scripts/flashcardDatabase.gd" id="1_b1fip"]
+[ext_resource type="Resource" uid="uid://bphfsvharnua7" path="res://Resources/Science/fc_plantcell.tres" id="1_h4qpt"]
+
+[resource]
+script = ExtResource("1_b1fip")
+databaseName = "Science"
+flashcards = Array[Resource("res://Scripts/flashcardContainer.gd")]([ExtResource("1_h4qpt")])
